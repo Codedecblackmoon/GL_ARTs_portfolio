@@ -5,7 +5,7 @@ export const Navbar = () => {
                 Navbar
             </a>
             <button >
-                <span className="navbar-toggler-icon"></span>uuuu
+                <span className="navbar-toggler-icon"></span>
             </button>
         </nav>  
         )
