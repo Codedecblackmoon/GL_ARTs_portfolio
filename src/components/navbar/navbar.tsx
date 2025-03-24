@@ -1,3 +1,5 @@
+import './nav.css'
+
 export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
