@@ -23,7 +23,7 @@ export const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>l
         </nav>  
         )
     };
