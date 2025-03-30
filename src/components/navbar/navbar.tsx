@@ -19,7 +19,7 @@ export const Navbar = () => {
                             <a className="nav-link" href="About_us.html">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="Contact_us.htmlll">Contact us</a>
+                            <a className="nav-link" href="Contact_us.htmllll">Contact us</a>
                         </li>
                     </ul>
                 </div>
