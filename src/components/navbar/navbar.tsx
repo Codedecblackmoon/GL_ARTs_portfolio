@@ -2,7 +2,7 @@ import './nav.css'
 
 export const Navbar = () => {
     return (
-        <div>
+        <div className='navbar'>
             <h1>GL ARTs</h1>
             <nav>
                 <ul>
@@ -12,8 +12,7 @@ export const Navbar = () => {
                     <li><a>Contact US</a></li>
                 </ul>
             </nav> 
-        </div>
-        
+        </div> 
         )
     };
 
