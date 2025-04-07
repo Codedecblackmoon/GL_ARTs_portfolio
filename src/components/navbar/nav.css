@@ -25,7 +25,8 @@ nav > ul{
 
 }
 
-@media screen {
+@media (max-width: 768px) {
     
-}
+
+  }
   
