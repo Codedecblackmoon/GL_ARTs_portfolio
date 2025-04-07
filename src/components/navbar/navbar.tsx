@@ -5,12 +5,12 @@ export const Navbar = () => {
         <div className='navbar'>
             <h1>GL ARTs</h1>
             <nav>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Work</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact US</a></li>
-                </ul>
+                <ol>
+                    <li><a href='#' >Home</a></li>
+                    <li><a href='#' >Work</a></li>
+                    <li><a href='#' >About</a></li>
+                    <li><a href='#' >Contact US</a></li>
+                </ol>
             </nav> 
         </div> 
         )
