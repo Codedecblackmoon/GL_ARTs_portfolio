@@ -5,7 +5,6 @@ body{
 
 .navbar{
     display: flex;
-    /* width: 600px; */
     justify-content: center;
     align-items: center;
     gap: 600px;
@@ -24,5 +23,9 @@ nav > ul{
     text-decoration: none;
     color: rgb(41, 41, 41);
 
+}
+
+@media screen {
+    
 }
   
