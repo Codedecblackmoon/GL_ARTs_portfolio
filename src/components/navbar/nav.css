@@ -6,6 +6,8 @@ body{
 .navbar{
     display: flex;
     /* width: 600px; */
+    justify-content: center;
+    align-items: center;
     gap: 600px;
 }
 
@@ -13,4 +15,10 @@ nav > ul{
     display: flex;
     flex-direction: row;
     gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
 }
