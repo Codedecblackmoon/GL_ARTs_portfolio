@@ -5,15 +5,15 @@ export const Navbar = () => {
         <div className='navbar'>
             <h1>GL ARTs</h1>
             <nav>
-                <ol>
-                    <li><a href='#' >Home</a></li>
-                    <li><a href='#' >Work</a></li>
-                    <li><a href='#' >About</a></li>
-                    <li><a href='#' >Contact US</a></li>
-                </ol>
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>Work</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Contact US</a></li>
+                </ul>
             </nav> 
         </div> 
-        )
-    };
+    );
+};
 
-export default Navbar
+export default Navbar;
