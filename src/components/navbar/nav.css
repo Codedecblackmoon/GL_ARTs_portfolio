@@ -5,7 +5,12 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
+    /* width: 600px; */
+    gap: 600px;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
 }
