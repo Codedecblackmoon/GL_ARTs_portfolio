@@ -17,3 +17,14 @@
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/fonts/Volter-Regular.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Volter', sans-serif;
+}

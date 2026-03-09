@@ -5,93 +5,69 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <nav className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold">
-            <span className="text-black">GL</span>
-            <span className="text-[#FF6600]">Arts</span>
-          </div>
+    <header className=" display-flex items-center mt-2.5 w-500  left-12 right-12 fixed z-50 bg-[#1a1a1a] rounded-xl shadow-lg ">
+      {/* Main navbar row */}
+      <div className="flex items-center justify-between h-14">
+        <div className="pl-6 text-2xl font-black italic tracking-tight">
+          <span className="text-white">BRANDLIFT</span>
+          <span className="text-[#CC0000]"> HUB</span>
+        </div>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-black hover:text-[#FF6600] transition-colors font-medium">
-              Home
-            </a>
-            <a href="#services" className="text-black hover:text-[#FF6600] transition-colors font-medium">
-              Services
-            </a>
-            <a href="#portfolio" className="text-black hover:text-[#FF6600] transition-colors font-medium">
-              Portfolio
-            </a>
-            <a href="#about" className="text-black hover:text-[#FF6600] transition-colors font-medium">
-              About
-            </a>
-            <a href="#testimonials" className="text-black hover:text-[#FF6600] transition-colors font-medium">
-              Testimonials
-            </a>
+        {/* Desktop links */}
+        <div className="hidden md:flex items-center space-x-8 px-8">
+          {['home', 'services', 'portfolio', 'about'].map((item) => (
             <a
-              href="#contact"
-              className="bg-[#FF6600] text-white px-6 py-2 rounded-full hover:bg-black transition-colors duration-300 font-medium"
+              key={item}
+              href={`#${item}`}
+              className="text-[#CC0000] hover:text-white transition-colors font-bold uppercase text-sm tracking-widest"
             >
-              Contact Us
+              {item}
             </a>
-          </div>
+          ))}
+        </div>
 
+        <div className="flex items-center h-full">
+          {/* Desktop CTA */}
+          <a
+            href="#contact"
+            className="hidden md:flex bg-[#CC0000] hover:bg-[#aa0000] text-white h-full px-8 items-center font-bold uppercase text-sm tracking-widest transition-colors duration-300 rounded-r-xl"
+          >
+            Contact Us
+          </a>
+
+          {/* Mobile hamburger */}
           <button
-            className="md:hidden text-black"
+            className="md:hidden text-white pr-6"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
+      </div>
 
-        {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 space-y-4">
+      {/* Mobile dropdown */}
+      {isMenuOpen && (
+        <div className="md:hidden bg-[#1a1a1a] pb-4 space-y-1 border-t border-[#333]">
+          {['home', 'services', 'portfolio', 'about'].map((item) => (
             <a
-              href="#home"
-              className="block text-black hover:text-[#FF6600] transition-colors font-medium"
+              key={item}
+              href={`#${item}`}
+              className="block text-[#CC0000] hover:text-white hover:bg-[#252525] transition-colors font-bold uppercase text-sm tracking-widest px-6 py-3"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              {item}
             </a>
-            <a
-              href="#services"
-              className="block text-black hover:text-[#FF6600] transition-colors font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Services
-            </a>
-            <a
-              href="#portfolio"
-              className="block text-black hover:text-[#FF6600] transition-colors font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Portfolio
-            </a>
-            <a
-              href="#about"
-              className="block text-black hover:text-[#FF6600] transition-colors font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              About
-            </a>
-            <a
-              href="#testimonials"
-              className="block text-black hover:text-[#FF6600] transition-colors font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Testimonials
-            </a>
-            <a
-              href="#contact"
-              className="block bg-[#FF6600] text-white px-6 py-2 rounded-full hover:bg-black transition-colors duration-300 font-medium text-center"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact Us
-            </a>
-          </div>
-        )}
-      </nav>
+          ))}
+
+          <a
+            href="#contact"
+            className="block bg-[#CC0000] hover:bg-[#aa0000] text-white font-bold uppercase text-sm tracking-widest px-6 py-3 mx-6 text-center transition-colors duration-300 rounded-lg"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Contact Us
+          </a>
+        </div>
+      )}
     </header>
   );
 }
