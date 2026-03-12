@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="text-white">GL</span>
               <span className="text-[#FF6600]">Arts</span>
             </div>
-            <p className="text-gray-400 mb-4">
+            <p i className="text-gray-400 mb-4">
               Transforming ideas into digital masterpieces through creative design and innovative development.
             </p>
             <div className="flex space-x-4">
