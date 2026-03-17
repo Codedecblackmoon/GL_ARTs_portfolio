@@ -9,26 +9,26 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="text-2xl font-bold mb-4">
-              <span className="text-white">GL</span>
-              <span className="text-[#FF6600]">Arts</span>
+              <span className="text-white">BRANDLIFT</span>
+              <span className="text-[#CC0000]"> HUB</span>
             </div>
             <p i className="text-gray-400 mb-4">
-              Transforming ideas into digital masterpieces through creative design and innovative development.
+              Everything a small business needs to look professional and get found online in one place.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#FF6600] transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#CC0000] transition-colors duration-300">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#FF6600] transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#CC0000] transition-colors duration-300">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#FF6600] transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#CC0000] transition-colors duration-300">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#FF6600] transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#CC0000] transition-colors duration-300">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#FF6600] transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white bg-opacity-10 rounded-full flex items-center justify-center hover:bg-[#CC0000] transition-colors duration-300">
                 <Github className="w-5 h-5" />
               </a>
             </div>
@@ -37,22 +37,22 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><a href="#services" className="text-gray-400 hover:text-[#FF6600] transition-colors">Web Development</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-[#FF6600] transition-colors">Graphic Design</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-[#FF6600] transition-colors">Branding</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-[#FF6600] transition-colors">UI/UX Design</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-[#FF6600] transition-colors">Digital Marketing</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-[#CC0000] transition-colors">Web Development</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-[#CC0000] transition-colors">Graphic Design</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-[#CC0000] transition-colors">Branding</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-[#CC0000] transition-colors">UI/UX Design</a></li>
+              <li><a href="#services" className="text-gray-400 hover:text-[#CC0000] transition-colors">Digital Marketing</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-bold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#about" className="text-gray-400 hover:text-[#FF6600] transition-colors">About Us</a></li>
-              <li><a href="#portfolio" className="text-gray-400 hover:text-[#FF6600] transition-colors">Portfolio</a></li>
-              <li><a href="#testimonials" className="text-gray-400 hover:text-[#FF6600] transition-colors">Testimonials</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-[#FF6600] transition-colors">Contact</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-[#FF6600] transition-colors">Careers</a></li>
+              <li><a href="#about" className="text-gray-400 hover:text-[#CC0000] transition-colors">About Us</a></li>
+              <li><a href="#portfolio" className="text-gray-400 hover:text-[#CC0000] transition-colors">Portfolio</a></li>
+              <li><a href="#testimonials" className="text-gray-400 hover:text-[#CC0000] transition-colors">Testimonials</a></li>
+              <li><a href="#contact" className="text-gray-400 hover:text-[#CC0000] transition-colors">Contact</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-[#CC0000] transition-colors">Careers</a></li>
             </ul>
           </div>
 
@@ -65,11 +65,11 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email"
-                className="w-full px-4 py-2 bg-white bg-opacity-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF6600] text-white placeholder-gray-500"
+                className="w-full px-4 py-2 bg-white bg-opacity-10 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#CC0000] text-white placeholder-gray-500"
               />
               <button
                 type="submit"
-                className="w-full bg-[#FF6600] text-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors duration-300"
+                className="w-full bg-[#CC0000] text-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors duration-300"
               >
                 Subscribe
               </button>

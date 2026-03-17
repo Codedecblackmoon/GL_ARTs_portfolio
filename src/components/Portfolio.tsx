@@ -54,7 +54,7 @@ export default function Portfolio() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
-            Our <span className="text-[#FF6600]">Portfolio</span>
+            Our <span className="text-[#CC0000]">Portfolio</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Explore our latest projects and see how we bring creative visions to life
@@ -67,7 +67,7 @@ export default function Portfolio() {
                 onClick={() => setActiveCategory(category)}
                 className={`px-6 py-2 rounded-full font-semibold transition-all duration-300 ${
                   activeCategory === category
-                    ? 'bg-[#FF6600] text-white'
+                    ? 'bg-[#CC0000] text-white'
                     : 'bg-white text-black hover:bg-gray-100'
                 }`}
               >
@@ -81,7 +81,7 @@ export default function Portfolio() {
           {filteredItems.map((item, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+              className="group relative bg-[#0c0c0c] border-solid border-[#000000] border-t-4 border-r-7 border-b-7 border-l-4 overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
             >
               <div className="relative h-64 overflow-hidden">
                 <img
@@ -92,7 +92,7 @@ export default function Portfolio() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     <div className="flex items-center justify-between">
-                      <span className="text-[#FF6600] font-semibold text-sm">
+                      <span className="text-[#CC0000] font-semibold text-sm">
                         {item.category}
                       </span>
                       <ExternalLink className="w-5 h-5 text-white" />
@@ -102,10 +102,10 @@ export default function Portfolio() {
               </div>
 
               <div className="p-6">
-                <h3 className="text-xl font-bold text-black mb-2 group-hover:text-[#FF6600] transition-colors">
+                <h3 className="text-xl font-bold text-[#f0f0f0] mb-2 group-hover:text-[#CC0000] transition-colors">
                   {item.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-[#f0f0f0]">
                   {item.description}
                 </p>
               </div>

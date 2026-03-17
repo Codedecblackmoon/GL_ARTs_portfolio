@@ -24,7 +24,7 @@ export default function Contact() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
-            Get In <span className="text-[#FF6600]">Touch</span>
+            Get In <span className="text-[#CC0000]">Touch</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Ready to start your project? Let's create something amazing together
@@ -40,8 +40,8 @@ export default function Contact() {
 
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-[#FF6600] bg-opacity-10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
-                  <Mail className="w-6 h-6 text-[#FF6600]" />
+                <div className="w-12 h-12 bg-[#CC0000] bg-opacity-10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                  <Mail className="w-6 h-6 text-[#CC0000]" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-black mb-1">Email</h4>
@@ -50,8 +50,8 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-[#FF6600] bg-opacity-10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
-                  <Phone className="w-6 h-6 text-[#FF6600]" />
+                <div className="w-12 h-12 bg-[#CC0000] bg-opacity-10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                  <Phone className="w-6 h-6 text-[#CC0000]" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-black mb-1">Phone</h4>
@@ -60,8 +60,8 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start">
-                <div className="w-12 h-12 bg-[#FF6600] bg-opacity-10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-[#FF6600]" />
+                <div className="w-12 h-12 bg-[#CC0000] bg-opacity-10 rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-[#CC0000]" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-black mb-1">Location</h4>
@@ -84,7 +84,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF6600] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#CC0000] focus:outline-none transition-colors"
                   placeholder="John Doe"
                 />
               </div>
@@ -100,7 +100,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF6600] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#CC0000] focus:outline-none transition-colors"
                   placeholder="john@example.com"
                 />
               </div>
@@ -116,7 +116,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF6600] focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#CC0000] focus:outline-none transition-colors"
                   placeholder="Project Inquiry"
                 />
               </div>
@@ -132,14 +132,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FF6600] focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#CC0000] focus:outline-none transition-colors resize-none"
                   placeholder="Tell us about your project..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#FF6600] text-white px-8 py-4 rounded-xl font-semibold hover:bg-black transition-all duration-300 flex items-center justify-center group"
+                className="w-full bg-[#CC0000] text-white px-8 py-4 rounded-xl font-semibold hover:bg-black transition-all duration-300 flex items-center justify-center group"
               >
                 Send Message
                 <Send className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

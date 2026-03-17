@@ -43,14 +43,14 @@ export const HeroSection = React.forwardRef<HTMLDivElement, HeroProps>(
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
           {/* Header Section */}
-          <div className="text-center mb-12 max-w-3xl">
+          {/* <div className="text-center mb-12 max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground mb-4">
               {title}
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground">
               {subtitle}
             </p>
-          </div>
+          </div> */}
 
           {/* Main Showcase Section */}
           <div className="relative w-full max-w-5xl mx-auto">

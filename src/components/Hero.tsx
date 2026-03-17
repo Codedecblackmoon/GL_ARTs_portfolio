@@ -33,12 +33,12 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
 
           <h1 id='hero1' className="text-5xl md:text-7xl font-bold text-black leading-tight mb-6">
-            Transforming Ideas Into
-            <span className="block text-[#CC0000] mt-2">Digital Masterpieces</span>
+            Your brand. 
+            <span className="block text-[#CC0000] mt-2">Built. Fast.</span>
           </h1>
 
           <p id='hero1' className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl leading-relaxed mx-auto">
-            We craft stunning websites and captivating graphic designs that elevate your brand and engage your audience.
+            Everything a small business needs to look professional and get found online in one place
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -60,12 +60,12 @@ export default function Hero() {
           <div>
             <HeroSection
               // title={title}
-              subtitle="Transform your photos with powerful editing tools, anywhere, anytime."
+              // subtitle="Transform your photos with powerful editing tools, anywhere, anytime."
               images={images}
             />
           </div>
 
-          <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto  ">
+          {/* <div className="mt-16 grid grid-cols-3 gap-8 max-w-2xl mx-auto  ">
             <div>
               <div className="text-4xl font-bold text-[#CC0000] mb-2">150+</div>
               <div className="text-gray-600 font-medium">Projects Completed</div>
@@ -78,7 +78,7 @@ export default function Hero() {
               <div className="text-4xl font-bold text-[#CC0000] mb-2">5+</div>
               <div className="text-gray-600 font-medium">Years Experience</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
