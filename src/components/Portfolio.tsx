@@ -1,5 +1,8 @@
 import { ExternalLink } from 'lucide-react';
 import { useState } from 'react';
+import im from '../assets/images/WW1.jpg';
+import i from '../assets/images/b.png';
+
 
 const portfolioItems = [
   {
@@ -12,7 +15,7 @@ const portfolioItems = [
     title: 'Brand Identity Design',
     category: 'Graphic Design',
     description: 'Complete brand overhaul for tech startup',
-    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image:  i
   },
   {
     title: 'Restaurant Website',
@@ -36,7 +39,7 @@ const portfolioItems = [
     title: 'Marketing Campaign',
     category: 'Graphic Design',
     description: 'Social media graphics and promotional materials',
-    image: 'https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&cs=tinysrgb&w=800'
+    image: im
   }
 ];
 

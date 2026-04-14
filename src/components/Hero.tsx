@@ -1,9 +1,9 @@
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { HeroSection } from "../components/ui/feature-carousel";
-import photo1 from '../assets/images/image1.jpg';
-import photo2 from '../assets/images/image2.jpg';
-import photo3 from '../assets/images/image3.jpg';
-import photo4 from '../assets/images/image4.jpg';
+import photo1 from '../assets/images/image1.png';
+import photo2 from '../assets/images/image2.png';
+import photo3 from '../assets/images/image3.png';
+import photo4 from '../assets/images/image4.png';
 import photo5 from '../assets/images/image5.png';
 
 
@@ -33,8 +33,8 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto text-center">
 
           <h1 id='hero1' className="text-5xl md:text-7xl font-bold text-black leading-tight mb-6">
-            Your brand. 
-            <span className="block text-[#CC0000] mt-2">Built. Fast.</span>
+            Same playing field. Same fighting chance. 
+            <span className="block text-[#ff0000] mt-2">Better brand.</span>
           </h1>
 
           <p id='hero1' className="text-xl md:text-2xl text-gray-600 mb-10 max-w-2xl leading-relaxed mx-auto">
